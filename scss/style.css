@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;600;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto+Slab:wght@200;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-greenlight {
+  background: #F6FFED;
+}
+
+.bg-redlight {
+  background: #FFF1F0;
+}
+
+.bg-bluelight {
+  background: #E6F7FF;
+}
+
+.btn-radius {
+  border-radius: 24px;
+  padding: 10px 30px;
+}
+
+.margin-top {
+  margin-top: 170px !important;
+}
+
+.primary-box-background {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 15px;
+  background: #722ed123;
+  border-radius: 24px;
+}
+
+.main .navbar-container {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main .navbar-container nav #navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .main .navbar-container nav .logo-btn {
+    width: 100%;
+  }
+}
+
+.main .home {
+  background-image: url("/asset/img/Path 1.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 764px) {
+  .main .why-qubly .data-cards {
+    width: 100% !important;
+  }
+}
+
+.main .login .form-cus {
+  padding: 20px 80px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .main .login .form-cus {
+    padding: 0 !important;
+  }
+}
+
+.main .login .btn-cus {
+  padding: 0 !important;
+}
+
+@media only screen and (min-width: 912px) {
+  .main .login .btn-cus {
+    padding: 0px 50px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

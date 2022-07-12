@@ -1,0 +1,13 @@
+primary color : #722ED1
+home-section-color : gradiant(#FFF,#E2F1FF)
+
+Header Color : #160637
+
+green-light : #F6FFED
+red-light : #FFF1F0
+blue-light : #E6F7FF
+
+advertise-background : #F9F0FF
+sign-up-border : #F9F0FF
+
+btn-border-radius : 24px

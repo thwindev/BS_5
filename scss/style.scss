@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;600;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto+Slab:wght@200;400;500;700;800&display=swap');
+$reset: 0;
+$border-radius: 24px;
+$primar-light:#722ed123;
+$green-light: #F6FFED;
+$red-light: #FFF1F0;
+$blue-light: #E6F7FF;
+* {
+    margin: $reset;
+    padding: $reset;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-greenlight {
+    background: $green-light;
+}
+
+.bg-redlight {
+    background: $red-light;
+}
+
+.bg-bluelight {
+    background: $blue-light;
+}
+
+.btn-radius {
+    border-radius: $border-radius;
+    padding: 10px 30px;
+}
+
+.margin-top {
+    margin-top: 170px !important;
+}
+
+.primary-box-background {
+    width: fit-content;
+    padding: 10px 15px;
+    background: $primar-light;
+    border-radius: $border-radius;
+}
+
+.main {
+    // this is nav bar start
+    .navbar-container {
+        top: $reset;
+        left: $reset;
+        right: $reset;
+        nav {
+            #navbar-toggler {
+                &:focus {
+                    box-shadow: none !important;
+                }
+            }
+            .logo-btn {
+                @media only screen and (max-width: 992px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    // this is nav bar end
+    .home {
+        // h1 {}
+        background-image: url('/asset/img/Path\ 1.svg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .why-qubly {
+        .data-cards {
+            @media only screen and(max-width: 764px) {
+                width: 100% !important;
+            }
+        }
+    }
+    .login {
+        .form-cus {
+            padding: 20px 80px !important;
+            @media only screen and(max-width: 768px) {
+                padding: 0 !important;
+            }
+        }
+        .btn-cus {
+            padding: 0 !important;
+            @media only screen and(min-width: 912px) {
+                padding: 0px 50px !important;
+            }
+        }
+    }
+}
